@@ -6,8 +6,11 @@ import EditLogModal from './components/logs/EditLogModal';
 import AddTechModal from './components/techs/AddTechModal';
 import TechListModal from './components/techs/TechListModal';
 import AddButton from './components/layout/AddButton';
-import 'materialize-css/dist/css/materialize.min.css'
+import { Provider } from 'react-redux';
+import store from './store';
+
 import M from 'materialize-css/dist/js/materialize.min.js'
+import 'materialize-css/dist/css/materialize.min.css'
 import './App.css';
 
 const App = () => {
@@ -16,7 +19,7 @@ const App = () => {
     M.AutoInit();
   });
   return (
-    <div>
+    <Provider store={store}>
       <SearchBar />
       <div className="container">
         <AddButton />
@@ -26,7 +29,7 @@ const App = () => {
         <AddTechModal />
         <Logs />
       </div>
-    </div>
+    </Provider>
   );
 }
 
