@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import LogItem from './LogItem';
 import Preloader from '../layout/Preloader'
 
-const SearchBar = () => {
+const Logs = () => {
     const [logs, setLogs] = useState([]);
     const [loading, setLoading] = useState(false);
 
@@ -36,4 +36,4 @@ const SearchBar = () => {
     )
 }
 
-export default SearchBar;
+export default Logs;
