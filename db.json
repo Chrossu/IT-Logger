@@ -2,24 +2,24 @@
   "logs": [
     {
       "id": 1,
-      "message": "Changed hard drive on Workstation 005",
+      "message": "Changed Network card in Server 0071",
       "attention": false,
-      "date": "03-02-2019",
-      "tech": "Sam Smith"
+      "tech": "Sam Smith",
+      "date": "2019-12-10T07:23:40.141Z"
     },
     {
-      "id": 2,
-      "message": "Workstation 007 not posting",
+      "message": "Hard Drive failed in Workstation 002",
       "attention": true,
-      "date": "07-01-2019",
-      "tech": "John Doe"
+      "tech": "Sara Wilson",
+      "date": "2019-12-10T06:14:24.877Z",
+      "id": 2
     },
     {
-      "id": 3,
-      "message": "Fire fire fire fire",
+      "message": "1122 Wireless failure",
       "attention": true,
-      "date": "03-02-2019",
-      "tech": "Sara Wilson"
+      "tech": "Sam Smith",
+      "date": "2019-12-10T06:34:22.963Z",
+      "id": 3
     }
   ],
   "techs": [
