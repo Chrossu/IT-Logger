@@ -18,6 +18,7 @@ const App = () => {
     // Init Materialize CSS
     M.AutoInit();
   });
+  
   return (
     <Provider store={store}>
       <SearchBar />
